@@ -48,7 +48,7 @@ int main(){
 }
 
 void checkBalance(float balance){
-    printf("\nCurrent balance: %.2f\n", balance);
+    printf("\nCurrent balance: $%.2f\n", balance);
 }
 float withdraw(float balance){
 
